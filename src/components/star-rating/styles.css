@@ -3,10 +3,12 @@
   display: flex;
   gap: 12px;
   cursor: pointer;
+}
+.star-rating svg {
   transition: transform 0.12s ease, color 0.2s ease;
 }
 
-.star-rating:hover {
+.star-rating svg:hover {
   transform: scale(1.08);
 }
 
