@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./styles.css";
 
 export default function RandomColor() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
@@ -33,6 +34,7 @@ export default function RandomColor() {
 
   return (
     <div
+    className="a"
       style={{
         width: "100vw",
         height: "100vh",
@@ -53,6 +55,7 @@ export default function RandomColor() {
         }}
       >
         <button
+        className="degistirbuton"
           onClick={() => {
             setTypeOfColor("hex");
             handleCreateRandomHexColor();
@@ -65,7 +68,7 @@ export default function RandomColor() {
             borderRadius: "8px",
             cursor: "pointer",
             backgroundColor: typeOfColor === "hex" ? "rgba(255, 255, 255, 0.45)" : "rgba(255, 255, 255, 0.2)", 
-            color: "#ffffff",
+            // color: "#ffffff",
             boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)",
             transition: "all 0.3s ease",
           }}
