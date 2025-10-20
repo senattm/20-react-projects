@@ -11,12 +11,14 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/tabs/tab-test";
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
 
 
 function App() {
   return (
     <>
-     <GithubProfileFinder/>
+     <SearchAutocomplete/>    
+      {/* <GithubProfileFinder/>*/}
       {/* <ModalTest/> */}
       {/* <TabTest /> */}
       {/*<ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>*/}
