@@ -1,0 +1,58 @@
+.top-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
+  transition: background 0.4s ease;
+}
+
+.top-container h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.scroll-progress-tracking-container {
+  width: 90%;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.207);
+  border-radius: 4px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.current-progress-bar {
+  height: 8px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff, #4facfe);
+  width: 0%;
+  border-radius: 4px;
+}
+
+.data-container {
+  padding: 40px 60px;
+  line-height: 1.8;
+}
+
+.data-container p {
+  background: #f6f2f2;
+  border: 1px solid #ada3a3;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease;
+}
+
+.data-container p:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
