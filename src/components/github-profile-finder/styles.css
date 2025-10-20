@@ -1,0 +1,103 @@
+
+body {
+  background:  #e0f7fae8;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.github-profile-container {
+  margin: 60px auto;
+  width: 90%;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.input-wrapper input {
+  padding: 12px 16px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #cce7e8;
+}
+
+.input-wrapper input:focus {
+  border-color: #26c6da;
+  box-shadow: 0 0 6px rgba(38, 198, 218, 0.2);
+}
+
+.input-wrapper button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #26c6da;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 172, 193, 0.25);
+}
+
+.input-wrapper button:hover {
+  transform: translateY(-2px);
+  background:#00bcd4;
+}
+
+.user {
+  background: #f9fdfd;
+  border-radius: 16px;
+  padding: 25px;
+  border: 1px solid #e0f2f1;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.avatar {
+  height: 130px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 2px solid #b2ebf2;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  border-color: #4dd0e1;
+}
+
+.name-container a:hover {
+  color: #00acc1;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-around;
+  background: #e0f7fa;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.profile-info div {
+  text-align: center;
+}
+
+.profile-info {
+  font-size: 16px;
+  color: #006064;
+  margin-bottom: 6px;
+}
+
+h5 {
+  text-align: center;
+  color: #00796b;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+
