@@ -15,13 +15,15 @@ import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/tic-tac-toe";
 import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
+import UseFetchHookTest from "./components/use-fetch/test";
 
 function App() {
   return (
     <>
-      <FeatureFlagGlobalState>
+      <UseFetchHookTest/>
+      {/*<FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState>*/}
       {/*<TicTacToe/> */}
       {/*<SearchAutocomplete/>  */}
       {/* <GithubProfileFinder/>*/}
