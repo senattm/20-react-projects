@@ -32,6 +32,7 @@ export default function GithubProfileFinder() {
   }
 
   return (
+    <div className="github-page-wrapper">
     <div className="github-profile-container">
       <div className="input-wrapper">
         <input
@@ -44,6 +45,7 @@ export default function GithubProfileFinder() {
         <button onClick={handleSubmit}>Search</button>
       </div>
       {userData === null ? null : <User user={userData} />}
+    </div>
     </div>
   );
 }

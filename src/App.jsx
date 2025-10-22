@@ -20,13 +20,13 @@ import UseFetchHookTest from "./components/use-fetch/test";
 function App() {
   return (
     <>
-      <UseFetchHookTest/>
+      {/*<UseFetchHookTest/>*/}
       {/*<FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>*/}
       {/*<TicTacToe/> */}
       {/*<SearchAutocomplete/>  */}
-      {/* <GithubProfileFinder/>*/}
+       <GithubProfileFinder/>
       {/* <ModalTest/> */}
       {/* <TabTest /> */}
       {/*<ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>*/}

@@ -58,6 +58,7 @@ export default function TicTacToe() {
     }
   }, [squares, isXTurn]);
   return (
+    <div className="tic-tac-toe-main">
     <div className="tic-tac-toe-container">
       <div className="row">
         <Square value={squares[0]} onClick={() => handleClick(0)} />
@@ -76,6 +77,7 @@ export default function TicTacToe() {
       </div>
       <h1>{status}</h1>
       <button className="restart-button" onClick={handleRestart}>Restart</button>
+    </div>
     </div>
   );
 }
