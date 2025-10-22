@@ -13,13 +13,17 @@ import TabTest from "./components/tabs/tab-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/tic-tac-toe";
-
+import FeatureFlags from "./components/feature-flag";
+import FeatureFlagGlobalState from "./components/feature-flag/context";
 
 function App() {
   return (
     <>
-      <TicTacToe/>
-      {/*<SearchAutocomplete/>  */}  
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
+      {/*<TicTacToe/> */}
+      {/*<SearchAutocomplete/>  */}
       {/* <GithubProfileFinder/>*/}
       {/* <ModalTest/> */}
       {/* <TabTest /> */}
@@ -36,13 +40,4 @@ function App() {
   );
 }
 
-/*  return (
-    <ImageSlider
-      url={"https://picsum.photos/v2/list"}
-      limit={"8"}
-    />
-  );
-
-  image slider açmak için
-  */
 export default App;
