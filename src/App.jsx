@@ -16,17 +16,19 @@ import TicTacToe from "./components/tic-tac-toe";
 import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
     <>
+      <UseOnclickOutsideTest/>
       {/*<UseFetchHookTest/>*/}
       {/*<FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>*/}
       {/*<TicTacToe/> */}
       {/*<SearchAutocomplete/>  */}
-       <GithubProfileFinder/>
+       {/* <GithubProfileFinder/> */}
       {/* <ModalTest/> */}
       {/* <TabTest /> */}
       {/*<ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>*/}
