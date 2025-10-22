@@ -12,12 +12,14 @@ import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/tabs/tab-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tac-toe";
 
 
 function App() {
   return (
     <>
-     <SearchAutocomplete/>    
+      <TicTacToe/>
+      {/*<SearchAutocomplete/>  */}  
       {/* <GithubProfileFinder/>*/}
       {/* <ModalTest/> */}
       {/* <TabTest /> */}
