@@ -1,0 +1,33 @@
+.scroll-to-section-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-to-section-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.card-wrapper {
+  margin-bottom: 30px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.scroll-button {
+  padding: 12px 25px;
+  background-color: #3498dbb8;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.scroll-button:hover {
+  background-color: #3498db; 
+}
