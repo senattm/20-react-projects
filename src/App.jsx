@@ -21,14 +21,15 @@ import UseWindowResizeTest from "./components/use-window-resize/test";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 
+
 function App() {
   return (
     <>
-      <ScrollToSection />
-      <ScrollToTopAndBottom />
+      {/* <ScrollToSection />
+      <ScrollToTopAndBottom /> */}
       {/*<UseWindowResizeTest/>*/}
       {/*<UseOnclickOutsideTest/>*/}
-      {/*<UseFetchHookTest/>*/}
+      <UseFetchHookTest/>
       {/*<FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>*/}
